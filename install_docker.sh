@@ -1,8 +1,8 @@
 #!/bin/bash
 
-read -p "Ingrese el nuevo valor para MONGO_USER2: " NEW_MONGO_USER
-read -p "Ingrese el nuevo valor para MONGO_PASS2: " NEW_MONGO_PASS
-read -p "Ingrese el nuevo valor para MONGO_DBNAME2: " NEW_MONGO_DBNAME
+read -p "Ingrese el nuevo valor para MONGO USER: " NEW_MONGO_USER
+read -p "Ingrese el nuevo valor para MONGO PASSWORD: " NEW_MONGO_PASS
+read -p "Ingrese el nuevo valor para MONGO DBNAME: " NEW_MONGO_DBNAME
 
 # Reemplazar en docker-compose.yml
 sed -i "s/MONGO_USER2/$NEW_MONGO_USER/g" docker-compose.yml
