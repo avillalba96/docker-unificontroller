@@ -3,7 +3,7 @@ version: "3.8"
 services:
   unifi-db:
 #    image: mongo:7.0.10-rc0-jammy
-    image: mongo:4.4.9-rc0-focal
+    image: mongo:4.4.9-rc0-focal #Version admitida para distintos tipos de CPU.
     container_name: unifi-db
     volumes:
       - ./mongodb/data:/data/db
