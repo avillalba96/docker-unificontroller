@@ -15,5 +15,5 @@
 2.1. Para PFSENSE
 Y hay que quedarse con "C0A84232" y agregar 0104 quedando un total "01:04:C0:A8:42:32"
 
-2.2. Para MIKROTIN (<https://serversideup.net/blog/automatic-controller-assignment-unifi-dhcp-option-43-mikrotik-routers/>)
+2.2. Para MIKROTIK (<https://serversideup.net/blog/automatic-controller-assignment-unifi-dhcp-option-43-mikrotik-routers/>)
 Y hay que quedarse con "0xC0A84232" y agregar 0104 quedando un total "0x0104C0A84232"
